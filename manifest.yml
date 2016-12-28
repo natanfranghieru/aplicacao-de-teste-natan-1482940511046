@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-natan
+  host: aplicacao-de-teste-natan
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-natan-AdvancedMobileAccess
+  - aplicacao-de-teste-natan-imfpush
+  - aplicacao-de-teste-natan-cloudantNoSQLDB
